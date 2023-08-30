@@ -57,7 +57,7 @@ const Contact = () => {
 											<FaLinkedin size={30} />
 										</div>
 									</a>
-									<a
+									{/* <a
 										href="https://github.com/Karlushyna"
 										target="_blank"
 										rel="noreferrer"
@@ -65,7 +65,7 @@ const Contact = () => {
 										<div className="p-3 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
 											<FaGithub size={30} />
 										</div>
-									</a>
+									</a> */}
 									<a
 										href="https://web.telegram.org/k/"
 										target="_blank"

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTelegramPlane,  } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-import Logo from '../assets/do2.png';
+import Logo from '../assets/Logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -11,11 +11,11 @@ const Navbar = () => {
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
 			<Link to="home" smooth={true} duration={500}>
-				{/* <div>
-					<img src={Logo} to="home" alt="Logo" style={{ width: '100px' }} />
-				</div> */}
 				<div>
-					<img  to="home" alt="Logo" style={{ width: '100px' }} />
+					<img src={Logo} to="home" alt="Logo" style={{ width: '100px' }} />
+				</div>
+				<div>
+					<img src={Logo}  to="home" alt="Logo" style={{ width: '100px' }} />
 				</div>
 			</Link>
 

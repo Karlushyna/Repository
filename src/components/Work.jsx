@@ -1,10 +1,8 @@
 import React from 'react';
-import Book from '../assets/book.jpg';
-import IceCream from '../assets/icecream.jpg';
-import Filmoteka from '../assets/filmoteka.jpg';
-import PhotoProject from '../assets/photoProject.jpg';
-import PhotoTest from '../assets/photoTest.jpg';
-import DashBoard from '../assets/dashboard.jpg';
+import IceCream from '../assets/ice-project.png';
+import Filmoteka from '../assets/filmoteka.png';
+import LabProject from '../assets/labequip02.png';
+import PetsProject from '../assets/pets02.png';
 
 const Work = () => {
 	return (
@@ -20,18 +18,17 @@ const Work = () => {
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					{/* grid-item */}
 					<div
-						style={{ backgroundImage: `url(${Book})` }}
+						style={{ backgroundImage: `url(${LabProject})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium  text-white tracking-wider">
-								This project is created for those who like reading books. Simple
-								and easy to use for tracking your reading progress. It was made
-								with JS, npm packages and SCSS
+							Application tailored for purchasing laboratory equipment.
+							Catalog offers diverse tools with specs and images. Streamlines selection and procurement,enhancing laboratory operations.
 							</span>
 							<div className="pt-8 text-center">
-								{/* <a href="https://demchenk0.github.io/BooksProject/"> */}
+							<a href="https://labequip.netlify.app/products">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                     bg-white text-gray-700 font-bold text-lg"
@@ -39,13 +36,13 @@ const Work = () => {
 										Demo
 									</button>
 								{/* </a> */}
-								<a href="https://github.com/Demchenk0/BooksProject">
-									<button
+								{/* <a href="https://labequip.netlify.app/products"> */}
+									{/* <button
 										className="text-center rounded-lg px-4 py-3 m-2
                     bg-white text-gray-700 font-bold text-lg"
 									>
 										Code
-									</button>
+									</button> */}
 								</a>
 							</div>
 						</div>
@@ -59,22 +56,22 @@ const Work = () => {
 							<span className=" text-base font-medium text-white tracking-wider">
 								This is a business card website for an ice cream manufacturer.
 								Simple and easy-to-use one-page website. It was made using
-								simple HTML and SASS.
+								HTML, SASS and JS.
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://demchenk0.github.io/IceCream/">
+								<a href="https://karlushyna.github.io/Ice-project/">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
 								</a>
-								<a href="https://github.com/Demchenk0/IceCream">
+								{/* <a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
 									>
 										Code
 									</button>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>{' '}
@@ -86,11 +83,10 @@ const Work = () => {
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
 								Project about searching movies, and adding favorite movies to a
-								client personal library. Role: Scrum master. Using pure JS,
-								npm-packages and SCSS
+								client personal library. Using  JS, npm-packages and SCSS
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://demchenk0.github.io/Filmoteka/">
+								<a href="https://karlushyna.github.io/Filmoteka-project/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -98,28 +94,28 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="https://github.com/Demchenk0/Filmoteka">
+								{/* <a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
 									>
 										Code
 									</button>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${PhotoProject})` }}
+						style={{ backgroundImage: `url(${PetsProject})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
-							Project site gallery for personal photos. Using next.js, npm packages and Tailwind CSS.
+							Application connecting pets with potential hosts. Users can browse profiles of pets, view their stories and images, and apply for adoption or fostering. 
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://my-photo-project.netlify.app">
+								<a href="https://your-pet-ten.vercel.app/news">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -127,28 +123,29 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="https://github.com/Demchenk0/myPortfolio">
-									<button
+								{/* <a href="/"> */}
+									{/* <button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
 									>
 										Code
 									</button>
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>{' '}
-					<div
-						style={{ backgroundImage: `url(${PhotoTest})` }}
+					{/* <div
+						style={{ backgroundImage: `url(${PetsProject})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+						{/* <div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
-							This one-page website was a test task that was successfully completed. It was made with React, npm packages and SCSS
+							app connecting shelter pets with potential hosts. Users can browse profiles of pets, view their stories and images, and apply for adoption or fostering. The app streamlines the process of finding loving homes for shelter pets, 
+							fostering a positive impact on animal welfare and adoption rates.
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://lively-daifuku-588b66.netlify.app/">
+								<a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -156,7 +153,7 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="https://github.com/Demchenk0/testsoftryzen">
+								<a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -165,19 +162,19 @@ const Work = () => {
 									</button>
 								</a>
 							</div>
-						</div>
-					</div>
-					<div
+						</div> */}
+					{/* </div> */} 
+					{/* <div
 						style={{ backgroundImage: `url(${DashBoard})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
+					> */}
 						{/* Hover effects */}
-						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+						{/* <div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
 							This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.
 							</span>
 							<div className="pt-8 text-center">
-								<a href="https://idyllic-pixie-b72dee.netlify.app/">
+								<a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -185,7 +182,7 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="https://github.com/Demchenk0/UserDashboard">
+								<a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -194,8 +191,8 @@ const Work = () => {
 									</button>
 								</a>
 							</div>
-						</div>
-					</div>
+						</div> */}
+					{/* </div> */}
 				</div>
 			</div>
 		</div>
