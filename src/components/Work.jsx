@@ -3,6 +3,7 @@ import IceCream from '../assets/ice-project.png';
 import Filmoteka from '../assets/filmoteka.png';
 import LabProject from '../assets/labequip02.png';
 import PetsProject from '../assets/pets02.png';
+import BarberProject from '../assets/barbershop.png';
 
 const Work = () => {
 	return (
@@ -112,7 +113,7 @@ const Work = () => {
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
-							Application connecting pets with potential hosts. Users can browse profiles of pets, view their stories and images, and apply for adoption or fostering. 
+							Application connecting pets with potential hosts. Used technologies: React, Node.js, MongoDB 
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://your-pet-ten.vercel.app/news">
@@ -134,18 +135,17 @@ const Work = () => {
 							</div>
 						</div>
 					</div>{' '}
-					{/* <div
-						style={{ backgroundImage: `url(${PetsProject})` }}
+					<div
+						style={{ backgroundImage: `url(${BarberProject})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
-						{/* <div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
-							app connecting shelter pets with potential hosts. Users can browse profiles of pets, view their stories and images, and apply for adoption or fostering. The app streamlines the process of finding loving homes for shelter pets, 
-							fostering a positive impact on animal welfare and adoption rates.
+							Application that simplifies hair care appointments. Used HTML, SASS, JavaScript
 							</span>
 							<div className="pt-8 text-center">
-								<a href="/">
+								<a href="https://barbershop-lyart.vercel.app/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
@@ -153,17 +153,17 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								{/* <a href="/">
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
 									>
 										Code
 									</button>
-								</a>
+								</a> */}
 							</div>
-						</div> */}
-					{/* </div> */} 
+						</div> 
+					</div>  
 					{/* <div
 						style={{ backgroundImage: `url(${DashBoard})` }}
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
