@@ -1,0 +1,34 @@
+.animated-text {
+    animation-name: fadeIn; /* Name of the animation */
+    animation-duration: 4.5s; /* Duration of the animation */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    /* Add more animation properties as needed */
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  .hidden-text {
+    opacity: 0; /* Initially hide the text */
+    visibility: hidden; /* Hide the element from the layout */
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1.5s ease-in-out 1s; /* Add a delay of 1 second */
+  }
+
+ 

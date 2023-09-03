@@ -1,21 +1,33 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import "./Home.css"
 
 const Home = () => {
+	const [showText, setShowText] = useState(false);
+
+  useEffect(() => {
+    // Add the animation class after a 1-second delay
+    const timer = setTimeout(() => {
+      setShowText(true);
+    }, 1000);
+
+    return () => clearTimeout(timer); // Clean up the timer if the component unmounts
+  }, []);
 	return (
-		<div name="home" className="w-full h-screen bg-[#0a192f] ">
+		<div name="home" className="w-full h-screen bg-[#48544C] ">
 			{/* COntainer */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
-				<p className="text-pink-600">Hi, my name is</p>
-				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-					Olesia Karlushyna
+				{/* <p className="text-pink-600">Hi, my name is</p> */}
+				<h1 className="text-9xl sm:text-9xl font-bold text-[#EFF9DD] animated-text">
+					Hello.
 				</h1>
-				<h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-				 Front-End Developer.
+				<h2 className="text-4xl sm:text-8xl font-bold text-[#EFF9DD]">
+				My name is Olesia
 				</h2>
-				<p className="text-[#8892b0] py-4 max-w-[700px]">
-					Junior Front-End developer, specializing at HTML5,
+				<p className="font-semi-bold text-[#EFF9DD] py-4 max-w-[900px]">
+					I am Front-End developer, specializing at UI/UX, HTML5,
 CSS3, React, Node.js, SASS, Git, JavaScript, REST API, Redux, MongoDB. Looking for a permanent job in a fast-growing company with a friendly team, where I can improve my skills, learn new way of solvin tasks, develop HARD/SOFT skills. As a specialist I strive for the result, but I don't forget about the process and teamwork.
 				</p>
 				<div>
