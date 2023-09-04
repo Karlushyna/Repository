@@ -1,34 +1,32 @@
-.animated-text {
-    animation-name: fadeIn; /* Name of the animation */
-    animation-duration: 4.5s; /* Duration of the animation */
-    animation-timing-function: ease-in-out; /* Timing function for the animation */
-    /* Add more animation properties as needed */
+.container-bg {
+    width: 100%;
+    height: 100vh;
+    background-color: #48544C;
   }
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+
+  .container-flex {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    /* Add any additional styles you need for this container here */
+  }
+
+  .custom-text {
+    font-size: 9rem;
+    font-weight: bold;
+    color: #EFF9DD;
+    /* Add any additional styles you need for this text here */
+  }
+
+  .custom-text-large {
+    font-size: 96px;
+    font-weight: bold;
+    color: #EFF9DD;
+    margin: 0;
   }
   
 
-  .hidden-text {
-    opacity: 0; /* Initially hide the text */
-    visibility: hidden; /* Hide the element from the layout */
-  }
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  .fade-in {
-    animation: fadeIn 1.5s ease-in-out 1s; /* Add a delay of 1 second */
-  }
-
- 
