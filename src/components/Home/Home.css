@@ -13,12 +13,6 @@
   }
 }
 
-.title-text {
-  /* text-9xl sm:text-9xl font-bold  */
-  /* font-size: 90px; */
-}
-
-
 .container-box{
 
   @media screen and (min-width: 1280px){

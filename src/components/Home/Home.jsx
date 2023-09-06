@@ -1,20 +1,20 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import "./Home.css"
 
 const Home = () => {
-	const [showText, setShowText] = useState(false);
+// 	const [showText, setShowText] = useState(false);
 
-  useEffect(() => {
-    // Add the animation class after a 1-second delay
-    const timer = setTimeout(() => {
-      setShowText(true);
-    }, 1000);
+//   useEffect(() => {
+//     // Add the animation class after a 1-second delay
+//     const timer = setTimeout(() => {
+//       setShowText(true);
+//     }, 1000);
 
-    return () => clearTimeout(timer); // Clean up the timer if the component unmounts
-  }, []);
+//     return () => clearTimeout(timer); // Clean up the timer if the component unmounts
+//   }, []);
 	return (
 		<div name="home" className="w-full h-screen bg-[#ffffff] ">
 			
@@ -46,17 +46,18 @@ CSS3, React, Node.js, SASS, Git, JavaScript, REST API, Redux, MongoDB. Looking f
 
 				</div>
 				</div>
-					<button className="text-black group border-2 px-6 py-3 my-2 flex items-center  duration-300"
+					<button className="text-black group px-6 py-3 my-2 flex items-center  duration-300"
 					style={{ width: '160px',
-					transition: 'background-color 0.3s ease', // Optional for smooth hover effect
-    				backgroundColor:'inherit',
-					borderColor: '#E28996', }}
-					onMouseEnter={(e) => {
-						e.target.style.backgroundColor = '#E28996'; // Set the hover background color here
-					}}
-					    onMouseLeave={(e) => {
-						e.target.style.backgroundColor = 'inherit'; // Reset the background color on mouse leave
-					}}
+					// transition: 'background-color 0.3s ease', // Optional for smooth hover effect
+    				// backgroundColor:'inherit',
+					// borderColor: '#E28996', 
+				}}
+					// onMouseEnter={(e) => {
+					// 	e.target.style.backgroundColor = '#E28996'; // Set the hover background color here
+					// }}
+					//     onMouseLeave={(e) => {
+					// 	e.target.style.backgroundColor = 'inherit'; // Reset the background color on mouse leave
+					// }}
 					>
 						<Link to="work" smooth={true} duration={500}>
 							View Work

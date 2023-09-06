@@ -24,18 +24,18 @@ const Contact = () => {
 	});
 
 	return (
-		<div className="w-full h-full  text-gray-300 bg-[#48544C] ">
-			<div className="max-w-[1000px]  m-auto px-2 py-16 w-full text-[#ccd6f6] ">
-				<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+		<div className="w-full h-full  text-black-300 bg-[#fff] ">
+			<div className="max-w-[1000px]  m-auto px-2 py-16 w-full text-black ">
+				<p className="text-4xl font-bold inline border-b-4 text-black-300 border-black-600">
 					Contact
 				</p>
 				<h2 className="py-4">Get In Touch</h2>
-				<div className="grid lg:grid-cols-5 gap-8 bg-[#48544C]">
+				<div className="grid lg:grid-cols-5 gap-8 bg-[#fff]">
 					{/* left */}
 					<div className="col-span-3 lg:col-span-2  w-full h-full p-4">
 						<div className="lg:p-4 h-full  ">
 							<div>
-								<img className="rounded-xl" src={ContactImg} alt="/" />
+								<img className="rounded-sm" src={ContactImg} alt="/" />
 							</div>
 							<div>
 								<h2 className="py-2">Olesia Karlushyna</h2>

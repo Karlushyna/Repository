@@ -1,0 +1,6 @@
+.button-more{
+
+    @media screen and (max-width: 1279px){
+        margin-left: 40px;
+    }
+}

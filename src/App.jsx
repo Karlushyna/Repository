@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home/Home';
-import About from './components/About';
+import About from './components/About/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';

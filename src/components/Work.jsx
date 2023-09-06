@@ -7,10 +7,10 @@ import BarberProject from '../assets/barbershop.png';
 
 const Work = () => {
 	return (
-		<div name="work" className="w-full md:h-screen text-gray-300 bg-[#48544C]">
-			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
+		<div name="work" className="w-full md:h-screen text-black-300 bg-[#fff]">
+			<div className="max-w-[1000px] mx-auto p-4  flex flex-col justify-center w-full h-full ">
 				<div className="pb-8 ">
-					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">
+					<p className="text-4xl font-bold inline border-b-4  text-black-300 border-black-600 ">
 						Work
 					</p>
 					<p className="py-6">*Check out some of my recent work</p>
@@ -20,7 +20,7 @@ const Work = () => {
 					{/* grid-item */}
 					<div
 						style={{ backgroundImage: `url(${LabProject})` }}
-						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+						className=" shadow-lg shadow-gray group container rounded-sm flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
@@ -31,8 +31,7 @@ const Work = () => {
 							<div className="pt-8 text-center">
 							<a href="https://labequip.netlify.app/products">
 									<button
-										className="text-center rounded-lg px-4 py-3 m-2
-                    bg-white text-gray-700 font-bold text-lg"
+										className="text-center rounded-sm px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
 									>
 										Demo
 									</button>
@@ -50,7 +49,7 @@ const Work = () => {
 					</div>
 					<div
 						style={{ backgroundImage: `url(${IceCream})` }}
-						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+						className=" shadow-lg shadow-grey group container rounded-sm flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
@@ -61,7 +60,7 @@ const Work = () => {
 							</span>
 							<div className="pt-8 text-center">
 								<a href="https://karlushyna.github.io/Ice-project/">
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+									<button className="text-center rounded-sm px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
 								</a>
@@ -78,7 +77,7 @@ const Work = () => {
 					</div>{' '}
 					<div
 						style={{ backgroundImage: `url(${Filmoteka})` }}
-						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+						className=" shadow-lg shadow-gray group container rounded-sm flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
@@ -89,7 +88,7 @@ const Work = () => {
 							<div className="pt-8 text-center">
 								<a href="https://karlushyna.github.io/Filmoteka-project/">
 									<button
-										className="text-center rounded-lg px-4 py-3 m-2
+										className="text-center rounded-sm px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
 									>
 										Demo
@@ -108,7 +107,7 @@ const Work = () => {
 					</div>
 					<div
 						style={{ backgroundImage: `url(${PetsProject})` }}
-						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+						className=" shadow-lg shadow-gray group container rounded-sm flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
@@ -118,8 +117,8 @@ const Work = () => {
 							<div className="pt-8 text-center">
 								<a href="https://your-pet-ten.vercel.app/news">
 									<button
-										className="text-center rounded-lg px-4 py-3 m-2
-                      bg-white text-gray-700 font-bold text-lg"
+										className="text-center rounded-sm px-4 py-3 m-2
+                      bg-white text-black-700 font-bold text-lg"
 									>
 										Demo
 									</button>
@@ -137,7 +136,7 @@ const Work = () => {
 					</div>{' '}
 					<div
 						style={{ backgroundImage: `url(${BarberProject})` }}
-						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+						className=" shadow-lg shadow-gray group container rounded-sm flex justify-center items-center mx-auto content-div"
 					>
 						{/* Hover effects */}
 						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
@@ -147,7 +146,7 @@ const Work = () => {
 							<div className="pt-8 text-center">
 								<a href="https://barbershop-lyart.vercel.app/">
 									<button
-										className="text-center rounded-lg px-4 py-3 m-2
+										className="text-center rounded-sm px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
 									>
 										Demo
@@ -169,7 +168,7 @@ const Work = () => {
 						className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					> */}
 						{/* Hover effects */}
-						{/* <div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
+						<div className=" opacity-0 group-hover:opacity-100 p-3 text-justify">
 							<span className=" text-base font-medium text-white tracking-wider">
 							This multi-page website is designed for financial income control. It was made with Next.js, npm packages and SCSS.
 							</span>
@@ -186,16 +185,16 @@ const Work = () => {
 									<button
 										className="text-center rounded-lg px-4 py-3 m-2
                       bg-white text-gray-700 font-bold text-lg"
-									>
-										Code
+									> 
+										{ /* Code */}
 									</button>
 								</a>
 							</div>
-						</div> */}
-					{/* </div> */}
+						</div> 
+					</div> 
 				</div>
 			</div>
-		</div>
+		
 	);
 };
 

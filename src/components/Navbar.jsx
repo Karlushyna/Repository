@@ -9,13 +9,13 @@ const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
 	return (
-		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#48544C] text-gray-300">
+		<div className="fixed w-full h-[80px] text-1xl font-bold flex justify-between items-center px-4 bg-[#fff] text-black-300">
 			<Link to="home" smooth={true} duration={500}>
 				<div>
-					<img src={Logo} to="home" alt="Logo" style={{ width: '100px' }} />
+					<img src={Logo} to="home" alt="Logo" style={{ width: '10px' }} />
 				</div>
 				<div>
-					<img src={Logo}  to="home" alt="Logo" style={{ width: '100px' }} />
+					<img src={Logo}  to="home" alt="Logo" style={{ width: '10px' }} />
 				</div>
 			</Link>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 				</li>
 			</ul>
 
-			{/* Burget */}
+			{/* Burger */}
 			<div onClick={handleClick} className="md:hidden z-10">
 				{!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
 			</div>
@@ -57,7 +57,7 @@ const Navbar = () => {
 				className={
 					!nav
 						? 'hidden'
-						: 'absolute top-0 left-0 w-full h-screen bg-[#48544C] flex flex-col justify-center items-center'
+						: 'absolute top-0 left-0 w-full h-content bg-[#fff] flex flex-col justify-center items-center'
 				}
 			>
 				<li className="py-6 text-3xl">
@@ -91,7 +91,7 @@ const Navbar = () => {
 				</li>
 				<li className="py-6 text-2xl">
 					<div className="pt-12">
-						<p className="uppercase tracking-widest text-[#5651e5]">
+						<p className="uppercase tracking-widest text-black]">
 							Let&#39;s Connect
 						</p>
 						<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
@@ -126,7 +126,7 @@ const Navbar = () => {
 				</li>
 			</ul>
 			<div className={!nav ? 'hidden' : 'flex fixed flex-col'}>
-				<img src={Logo} alt="Logo" style={{ width: '100px' }} />
+				<img src={Logo} alt="Logo" style={{ width: '10px' }} />
 			</div>
 			
 		</div>
