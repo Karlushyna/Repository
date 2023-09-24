@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-router-dom';
+import AboutPage from '../AboutPage/AboutPage';
+import {  Link   } from 'react-scroll';
 import './About.css';
 
 const About = () => {
+	const [showAboutPage, setShowAboutPage] = useState(false);
+
+	const toggleAboutPage = () => {
+	  setShowAboutPage(!showAboutPage);
+	};
+
 	return (
 		<div name="about" className="w-full h-content bg-[#fff] text-black-300 "
 		style={{
@@ -29,7 +37,35 @@ const About = () => {
 						<p>
             I'm passionate about creating great websites that improve the lives of those around me. I specialise in creating a variety of websites for clients ranging from individuals and small businesses to large corporations. What would you do if you had someone like me at your fingertips?
 						</p>
-						<button className="text-black group px-6 py-3 my-2 flex items-center  duration-300 button-more"
+						<Link to="about-page" smooth={true} duration={500}> {/* Use Link from react-scroll */}
+        <button
+          className="text-black group px-6 py-3 my-2 flex items-center duration-300 button-more"
+          style={{ width: '160px' }}
+        >
+          More
+          <span className="group-hover:rotate-90 duration-300">
+            <HiArrowNarrowRight className="ml-3 " />
+          </span>
+        </button>
+      </Link>
+
+
+
+
+						{/* <button
+        className="text-black group px-6 py-3 my-2 flex items-center duration-300 button-more"
+        style={{ width: '160px' }}
+        onClick={toggleAboutPage}
+      >
+        More
+        <span className="group-hover:rotate-90 duration-300">
+          <HiArrowNarrowRight className="ml-3 " />
+        </span>
+      </button>
+      {showAboutPage && <AboutPage />} */}
+
+
+						{/* <button className="text-black group px-6 py-3 my-2 flex items-center  duration-300 button-more"
 					style={{ width: '160px',
 					
 				}}
@@ -42,7 +78,7 @@ const About = () => {
 						<span className="group-hover:rotate-90 duration-300">
 							<HiArrowNarrowRight className="ml-3 " />
 						</span>
-					</button>
+					</button> */}
 					</div>
 				</div>
 			</div>
