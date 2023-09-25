@@ -35,9 +35,7 @@ const Home = () => {
 					I am Front-End developer, specializing at UI/UX, HTML5,
 CSS3, React, Node.js, SASS, Git, JavaScript, REST API, Redux, MongoDB. Looking for a permanent job in a fast-growing company with a friendly team, where I can improve my skills, learn new way of solvin tasks, develop HARD/SOFT skills. As a specialist I strive for the result, but I don't forget about the process and teamwork.
 				</p>
-				<div> 
-
-				</div>
+				
 				</div>
 				<div>
 					<button className="text-black group px-6 py-3 my-2 flex items-center  duration-300"
