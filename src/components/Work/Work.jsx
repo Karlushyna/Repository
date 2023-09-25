@@ -1,14 +1,16 @@
 import React from 'react';
-import IceCream from '../assets/ice-project.png';
-import Filmoteka from '../assets/filmoteka.png';
-import LabProject from '../assets/labequip02.png';
-import PetsProject from '../assets/pets02.png';
-import BarberProject from '../assets/barbershop.png';
+import './Work.css';
+
+import IceCream from '../../assets/ice-project.png';
+import Filmoteka from '../../assets/filmoteka.png';
+import LabProject from '../../assets/labequip02.png';
+import PetsProject from '../../assets/pets02.png';
+import BarberProject from '../../assets/barbershop.png';
 
 const Work = () => {
 	return (
-		<div name="work" className="w-full md:h-screen text-black-300 bg-[#fff]">
-			<div className="max-w-[1000px] mx-auto p-4  flex flex-col justify-center w-full h-full ">
+		<div name="work" className="work-section">
+			<div className="work-container">
 				<div className="pb-8 ">
 					<p className="text-4xl font-bold inline border-b-4  text-black-300 border-black-600 ">
 						Work

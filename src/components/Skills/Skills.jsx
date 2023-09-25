@@ -1,22 +1,18 @@
 import React from 'react';
+import './Skills.css';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import Mongo from '../assets/mongo.png';
-import SCSS from '../assets/scss.png';
+import HTML from '../../assets/html.png';
+import CSS from '../../assets/css.png';
+import JavaScript from '../../assets/javascript.png';
+import ReactImg from '../../assets/react.png';
+import Node from '../../assets/node.png';
+import GitHub from '../../assets/github.png';
+import Mongo from '../../assets/mongo.png';
+import SCSS from '../../assets/scss.png';
 
 const Skills = () => {
 	return (
-		<div name="skills" className="w-full h-content bg-[#fff] text-black-300"
-		style={{
-			paddingTop: '40px',
-			paddingBottom: '40px',
-		}}
-		>
+		<div name="skills" className="skills-container">
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div>

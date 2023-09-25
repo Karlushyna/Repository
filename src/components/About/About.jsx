@@ -13,13 +13,9 @@ const About = () => {
 	};
 
 	return (
-		<div name="about" className="w-full h-content bg-[#fff] text-black-300 "
-		style={{
-			paddingTop: '30px',
-			paddingBottom: '60px',
-		}}>
-			<div className="flex flex-col justify-center items-center w-full h-full ">
-				<div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+			<div name="about" className="about-section">
+			<div className="about-container">
+				<div className="about-grid">
 					<div className="sm:text-right pb-8 pl-4">
 						<p className="text-4xl font-bold inline border-b-4 text-[#111111] border-black-600">
 							About
