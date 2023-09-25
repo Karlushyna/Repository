@@ -39,6 +39,7 @@ CSS3, React, Node.js, SASS, Git, JavaScript, REST API, Redux, MongoDB. Looking f
 
 				</div>
 				</div>
+				<div>
 					<button className="text-black group px-6 py-3 my-2 flex items-center  duration-300"
 					style={{ width: '160px',
 					
@@ -58,7 +59,7 @@ CSS3, React, Node.js, SASS, Git, JavaScript, REST API, Redux, MongoDB. Looking f
 							<HiArrowNarrowRight className="ml-3 " />
 						</span>
 					</button>
-				
+					</div>
 			</div>
 		</div>
 	);
