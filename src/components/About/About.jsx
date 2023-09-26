@@ -17,23 +17,26 @@ const About = () => {
 			<div className="about-container">
 				<div className="about-grid">
 					<div className="sm:text-right pb-8 pl-4">
-						<p className="text-4xl font-bold inline border-b-4 text-[#111111] border-black-600">
+						<p className="text-6xl font-bold inline border-b-4 text-[#111111] border-black-600">
 							About
 						</p>
 					</div>
 					<div></div>
 				</div>
-				<div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-					<div className="sm:text-right text-4xl text-[#111111] font-bold">
+				<div className="max-w-[1200px] w-full grid sm:grid-cols-2 gap-8 px-4">
+					<div className="sm:text-left text-2xl text-[#111111] font-bold">
 						<p>
-							Hi. I'm Olesia Karlushyna, nice to meet you. Please take a look around.
+						As a developer, my specialization lies in JavaScript, React, and Redux for frontend development, coupled with Node.js, MongoDB, and Express for the backend. My extensive tech stack encompasses a wide array of essential tools and technologies, including HTML, CSS, SASS, CSS libraries, Next.js, 
+						REST API, Git, GitHub, CRUD operations, Mongoose, Heroku, WebSockets, Postman, Webpack, Parcel, Figma, Sketch, and proficiency in project management platforms such as Jira, Asana, Confluence, Trello. I am also well-versed in communication tools like Slack, Microsoft Teams, and Smartsheet.
 						</p>
 					</div>
-					<div>
+					<div className='font-bold'>
 						<p>
-            I'm passionate about creating great websites that improve the lives of those around me. I specialise in creating a variety of websites for clients ranging from individuals and small businesses to large corporations. What would you do if you had someone like me at your fingertips?
+						Proficiency in Agile and Scrum methodologies allows me to streamline project planning, execution, and delivery. 
+						I have a proven ability to craft well-structured project timelines, define critical milestones, and efficiently manage resources, ensuring the successful outcome of each project. Furthermore, my solid grasp of UI/UX principles enables me to create visually appealing and functional designs that consistently exceed user expectations.
+						With expertise in both project management and UI/UX design, I bring a unique perspective to every project, ensuring that not only are technical requirements met, but the end-user experience is optimized. I am driven by the opportunity to further refine my skills, learn innovative problem-solving techniques, and develop both hard and soft skills. My commitment to delivering results is complemented by my dedication to fostering a positive work process and strong teamwork.
 						</p>
-						<Link to="about-page" smooth={true} duration={500}> {/* Use Link from react-scroll */}
+						<Link to="projects" smooth={true} duration={500}> {/* Use Link from react-scroll */}
         <button
           className="text-black group px-6 py-3 my-2 flex items-center duration-300 button-more"
           style={{ width: '160px' }}
