@@ -32,8 +32,10 @@ const Home = () => {
 				</h2>
 				</div>
 				<p className='home-side'>
-					I am Front-End developer, specializing at UI/UX, HTML5,
-CSS3, React, Node.js, SASS, Git, JavaScript, REST API, Redux, MongoDB. Looking for a permanent job in a fast-growing company with a friendly team, where I can improve my skills, learn new way of solvin tasks, develop HARD/SOFT skills. As a specialist I strive for the result, but I don't forget about the process and teamwork.
+				I am Project Manager with a strong technical background in Fullstack development, 
+				adept at transforming visionary concepts into tangible realities. 
+				My track record showcases a comprehensive approach, involving in-depth market research, a keen understanding of user requirements, and alignment with overarching business objectives. 
+				I excel at collaborating with diverse cross-functional teams, including developers, designers, testers, and managers, to bring innovative ideas to fruition.
 				</p>
 				
 				</div>
