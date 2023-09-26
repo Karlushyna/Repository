@@ -8,8 +8,10 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Work from './components/Work/Work';
+import ContactPage from './components/ContactPage/ContactPage';
 import Contact from './components/Contact';
 import { BsDisplay } from 'react-icons/bs';
+
 
 
 
@@ -25,7 +27,8 @@ function App() {
 		<Projects/>
 		<Skills/>
 		<Work/>
-		<Contact/>
+		<ContactPage />
+		{/* <Contact/> */}
 	</div>
 	</div>
 	)
