@@ -17,7 +17,7 @@ const About = () => {
 			<div className="about-container">
 				<div className="about-grid">
 					<div className="sm:text-right pb-8 pl-4">
-						<p className="text-6xl font-bold inline border-b-4 text-[#111111] border-black-600">
+						<p className="text-4xl font-bold inline border-b-4 text-[#111111] border-black-600">
 							About
 						</p>
 					</div>
