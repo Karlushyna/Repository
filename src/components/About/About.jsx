@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 // import { Link } from 'react-router-dom';
-import AboutPage from '../AboutPage/AboutPage';
+// import AboutPage from '../AboutPage/AboutPage';
 import {  Link   } from 'react-scroll';
 import './About.css';
 
 const About = () => {
-	const [showAboutPage, setShowAboutPage] = useState(false);
+	// const [showAboutPage, setShowAboutPage] = useState(false);
 
-	const toggleAboutPage = () => {
-	  setShowAboutPage(!showAboutPage);
-	};
+	// const toggleAboutPage = () => {
+	//   setShowAboutPage(!showAboutPage);
+	// };
 
 	return (
 			<div name="about" className="about-section">
