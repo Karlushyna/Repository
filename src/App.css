@@ -1,6 +1,12 @@
+
 .main {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 320px;
+    @media screen and (min-width: 600px) {
+        width: 100vw;
+    }
 }

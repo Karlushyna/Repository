@@ -21,13 +21,13 @@ const Home = () => {
 			<div className='container-box'>
 
 				<div className='title-text'>
-				<h1 className="font-archivo text-9xl sm:text-9xl font-bold text-[#111111]">				
+				<h1 className="font-archivo text-6xl sm:text-9xl font-bold text-[#111111]">				
 					Hello.
 				</h1>
-				<h2 className=" font-archivo text-9xl sm:text-8xl font-bold text-[#111111]">
+				<h2 className=" font-archivo text-6xl sm:text-9xl font-bold text-[#111111]">
 				I am
 				</h2>
-				<h2 className=" font-archivo text-9xl sm:text-9xl font-bold text-[#111111]">
+				<h2 className=" font-archivo text-6xl sm:text-9xl font-bold text-[#111111]">
 				Olesia
 				</h2>
 				</div>

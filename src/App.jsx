@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
@@ -15,7 +15,7 @@ import ContactPage from './components/ContactPage/ContactPage';
 function App() {
 	
 	return (
-	<div>
+	<div >
 		<Navbar />
 		<div className='main'>
 		

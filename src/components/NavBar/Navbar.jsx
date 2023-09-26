@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTelegramPlane,  } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/pagelogo.png';
+import Logo from '../../assets/pagelogo.png';
 import { Link } from 'react-scroll';
+import './Navbar.css';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
 	return (
-		<div className="fixed w-full h-[80px] text-1xl font-bold flex justify-between items-center px-4 bg-[#fff] text-black-300">
+		// <div className="fixed w-full h-[80px] text-1xl font-bold flex justify-between items-center px-4 bg-[#fff] text-black-300">
+		<div className="navbar-container">
+
 			<Link to="home" smooth={true} duration={500}>
 				<div>
 					<img src={Logo} to="home" alt="Logo" style={{ width: '10px' }} />
