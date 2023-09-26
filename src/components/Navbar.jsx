@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTelegramPlane,  } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-import Logo from '../assets/logo.png';
+// import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -10,14 +10,14 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 	return (
 		<div className="fixed w-full h-[80px] text-1xl font-bold flex justify-between items-center px-4 bg-[#fff] text-black-300">
-			<Link to="home" smooth={true} duration={500}>
+			{/* <Link to="home" smooth={true} duration={500}>
 				<div>
 					<img src={Logo} to="home" alt="Logo" style={{ width: '10px' }} />
 				</div>
 				<div>
 					<img src={Logo}  to="home" alt="Logo" style={{ width: '10px' }} />
 				</div>
-			</Link>
+			</Link> */}
 
 			{/* Menu */}
 			<ul className="hidden md:flex ">
@@ -126,7 +126,7 @@ const Navbar = () => {
 				</li>
 			</ul>
 			<div className={!nav ? 'hidden' : 'flex fixed flex-col'}>
-				<img src={Logo} alt="Logo" style={{ width: '10px' }} />
+				{/* <img src={Logo} alt="Logo" style={{ width: '10px' }} /> */}
 			</div>
 			
 		</div>
