@@ -20,7 +20,7 @@ const Navbar = () => {
 			</Link>
 
 			{/* Menu */}
-			<ul className="hidden md:flex ">
+			<ul className="hidden md:flex font-archivo ">
 				<li className="hover:scale-105 hover:duration-300 ">
 					<Link to="home" smooth={true} duration={500}>
 						Home
@@ -49,7 +49,7 @@ const Navbar = () => {
 			</ul>
 
 			{/* Burger */}
-			<div onClick={handleClick} className="md:hidden z-10">
+			<div onClick={handleClick} className="md:hidden z-10 font-archivo">
 				{!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
 			</div>
 			{/* Mobile Menu */}
@@ -57,7 +57,7 @@ const Navbar = () => {
 				className={
 					!nav
 						? 'hidden'
-						: 'absolute top-0 left-0 w-full h-screen bg-[#fff] flex flex-col justify-center items-center'
+						: 'absolute top-0 left-0 w-full h-screen font-archivo bg-[#fff] flex flex-col justify-center items-center'
 				}
 			>
 				<li className="py-6 text-3xl">

@@ -17,14 +17,14 @@ const About = () => {
 			<div className="about-container">
 				<div className="about-grid">
 					<div className="sm:text-right pb-8 pl-4">
-						<p className="text-4xl font-bold inline border-b-4 text-[#111111] border-black-600">
+						<p className="text-4xl font-bold font-archivo inline border-b-4 text-[#111111] border-black-600">
 							About
 						</p>
 					</div>
 					<div></div>
 				</div>
 				<div className="max-w-[1200px] w-full grid sm:grid-cols-2 gap-8 px-4">
-					<div className="sm:text-left text-2xl text-[#111111] font-bold">
+					<div className="sm:text-left text-xl text-[#111111] font-bold">
 						<p>
 						As a developer, my specialization lies in JavaScript, React, and Redux for frontend development, coupled with Node.js, MongoDB, and Express for the backend. My extensive tech stack encompasses a wide array of essential tools and technologies, including HTML, CSS, SASS, CSS libraries, Next.js, 
 						REST API, Git, GitHub, CRUD operations, Mongoose, Heroku, WebSockets, Postman, Webpack, Parcel, Figma, Sketch, and proficiency in project management platforms such as Jira, Asana, Confluence, Trello. I am also well-versed in communication tools like Slack, Microsoft Teams, and Smartsheet.

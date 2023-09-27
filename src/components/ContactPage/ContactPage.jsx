@@ -28,7 +28,7 @@ const ContactPage = () => {
             <div className='contact-container'>
             {/* <div className="sm:text-right pb-8 pl-4"> */}
             <div className="contact-text">
-						<p className="text-4xl font-bold inline border-b-4 text-[#111111] border-black-600">
+						<p className="text-4xl font-bold font-archivo inline border-b-4 text-[#111111] border-black-600">
                         {/* <p className="custom-text"> */}
 							Contact
 						</p>
