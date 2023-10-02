@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTelegramPlane } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import './Contact.css';
 
@@ -61,15 +61,6 @@ const ContactPage = () => {
 									>
 										<div className="p-3 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
 											<FaTelegramPlane size={30} />
-										</div>
-									</a>
-									<a
-										href="https://karlushyna.github.io/CV-Karlushyna-Dev/"
-										target="_blank"
-										rel="noreferrer"
-									>
-										<div className="p-3 cursor-pointer hover:scale-110 ease-in duration-300 rounded-full shadow-lg shadow-gray-400">
-											<BsFillPersonLinesFill size={30} />
 										</div>
 									</a>
 								</div>

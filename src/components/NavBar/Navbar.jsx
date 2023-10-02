@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTelegramPlane,  } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../../assets/pagelogo.png';
 import { Link } from 'react-scroll';
 import './Navbar.css';
@@ -113,14 +113,7 @@ const Navbar = () => {
 									<FaTelegramPlane />
 								</div>
 							</a>
-							<a href="https://karlushyna.github.io/CV-Karlushyna-Dev/" target="_blank" rel="noreferrer">
-								<div
-									onClick={() => setNav(!nav)}
-									className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 "
-								>
-									<BsFillPersonLinesFill  />
-								</div>
-							</a>
+							
 						</div>
 					</div>
 				</li>
